@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | POPORA</title>
+<meta name="description" content="Contact POPORA for personal gifting, corporate gifting and event enquiries. Frontend-only enquiry form.">
+<meta name="keywords" content="POPORA, gourmet popcorn, specialty snacks, gift boxes, corporate gifting, event gifting">
+<meta name="robots" content="index,follow">
+<meta name="author" content="POPORA">
+<meta name="theme-color" content="#25162F">
+<meta property="og:title" content="Contact | POPORA"><meta property="og:description" content="Contact POPORA for personal gifting, corporate gifting and event enquiries. Frontend-only enquiry form."><meta property="og:image" content="assets/logo.svg"><meta property="og:type" content="website"><meta property="og:url" content="https://popora.example/contact.html">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Contact | POPORA"><meta name="twitter:description" content="Contact POPORA for personal gifting, corporate gifting and event enquiries. Frontend-only enquiry form.">
+<link rel="canonical" href="https://popora.example/contact.html">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-contact>
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="POPORA home"><img class="brand-logo brand-logo-dark" src="assets/logo.svg" alt="POPORA"><img class="brand-logo brand-logo-light" src="assets/logo-light.svg" alt="" aria-hidden="true"></a>
+    <nav class="nav" aria-label="Primary navigation"><a href="index.html" class="">Home</a><a href="home2.html" class="">Home 2</a><a href="products.html" class="">Products</a><a href="about.html" class="">About</a><a href="services.html" class="">Gifting</a><a href="blogs.html" class="">Blogs</a><a href="contact.html" class="active">Contact</a></nav>
+    <div class="nav-tools">
+      <button class="icon-btn" data-contact-toggle aria-label="Open account and contact menu" aria-expanded="false">◉</button>
+      <button class="control-btn" data-dir-toggle aria-label="Switch text direction">RTL</button>
+      <button class="icon-btn" data-theme-toggle aria-label="Switch color theme">◐</button>
+      <button class="icon-btn hamburger" data-menu-toggle aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    </div>
+    <div class="contact-pop" data-contact-pop role="menu">
+      <a href="login.html">↳ <span>Login</span></a>
+      <a href="signup.html">＋ <span>Sign Up</span></a>
+      <a href="enquiry.html">✦ <span>Book / Enquiry</span></a>
+    </div>
+  </div>
+  <div class="mobile-panel" data-mobile-panel><div class="container inner"><a href="index.html">Home</a><a href="home2.html">Home 2</a><a href="products.html">Products</a><a href="about.html">About</a><a href="services.html">Gifting</a><a href="blogs.html">Blogs</a><a href="contact.html">Contact</a></div></div>
+</header><main id="main">
+<section class="page-hero"><div class="container page-hero-grid"><div><span class="eyebrow">Contact POPORA</span><h1>Tell us what you’re planning.</h1></div><p>For a personal gift, business order or event, the form below is designed to collect a useful brief. It is a frontend demo and does not send email.</p></div></section>
+<section class="section"><div class="container info-grid"><article class="info-card"><div class="info-icon">✉</div><h3>Email</h3><p>hello@popora.example</p></article><article class="info-card"><div class="info-icon">⌁</div><h3>Business gifting</h3><p>Quantity, branding, message cards and U.S. delivery coordination.</p></article><article class="info-card"><div class="info-icon">◷</div><h3>Response window</h3><p>Use the enquiry flow for a structured brief and next-step planning.</p></article></div></section>
+<section class="section-tight"><div class="container split"><div class="panel"><span class="kicker">01 / enquiry form</span><h2>Start with the details.</h2><p class="lede">Required fields are validated locally. No data leaves this browser.</p></div><form class="panel form-grid" data-demo-form="contact"><div class="field"><label for="c-name">Name *</label><input id="c-name" required></div><div class="field"><label for="c-email">Email *</label><input id="c-email" type="email" required></div><div class="field"><label for="c-phone">Phone *</label><input id="c-phone" required></div><div class="field"><label for="c-company">Company</label><input id="c-company"></div><div class="field"><label for="c-type">Enquiry type *</label><select id="c-type" required><option value="">Choose one</option><option>Personal gifting</option><option>Corporate gifting</option><option>Event gifting</option><option>Custom box</option></select></div><div class="field"><label for="c-qty">Quantity *</label><input id="c-qty" type="number" min="1" required></div><div class="field"><label for="c-date">Event date</label><input id="c-date" type="date"></div><div class="field"><label for="c-budget">Budget</label><select id="c-budget"><option>Under $250</option><option>$250–$750</option><option>$750–$2,500</option><option>$2,500+</option></select></div><div class="field full"><label for="c-message">Message *</label><textarea id="c-message" required placeholder="Tell us about the occasion, flavors, packaging or delivery needs."></textarea></div><div class="field full"><button class="btn btn-primary" type="submit">Submit frontend enquiry</button><p class="form-note">Demo only — this form validates and stores no server-side submission.</p></div></form></div></section>
+<section class="section"><div class="container split"><article class="panel dark"><span class="kicker">02 / corporate</span><h3>Need a bigger plan?</h3><p>Use the dedicated gifting flow for quantity, packaging, custom branding, message cards and delivery coordination.</p><a class="btn btn-accent" href="services.html">View business gifting</a></article><article class="panel"><span class="kicker">03 / event</span><h3>Planning a room full of people?</h3><p>Tell us the date, guest count and vibe. POPORA can be framed as a favor, welcome gift or take-home moment.</p><a class="btn btn-secondary" href="enquiry.html">Plan an event</a></article></div></section>
+<section class="section-tight" id="faq"><div class="container"><div class="section-head"><div><span class="kicker">04 / FAQ</span><h2>Before you ask.</h2></div></div><div class="faq"><div class="faq-item"><button class="faq-q">Is POPORA available for corporate orders? <span>+</span></button><div class="faq-a">Yes. The frontend experience supports a corporate brief covering quantity, packaging, custom branding, message cards and delivery coordination.</div></div><div class="faq-item"><button class="faq-q">Does the website actually send my enquiry? <span>+</span></button><div class="faq-a">No. This is a frontend-only demo. The form validates locally and displays a success toast without claiming to transmit information.</div></div><div class="faq-item"><button class="faq-q">Can I request custom boxes? <span>+</span></button><div class="faq-a">Yes. Use the enquiry page to describe the occasion, quantity, budget and packaging direction.</div></div></div></div></section>
+<section class="section"><div class="container map"><iframe title="U.S. map" loading="lazy" src="https://www.google.com/maps?q=New%20York%20City&output=embed"></iframe></div></section>
+<section class="section-tight"><div class="container"><div class="cta-band"><div><span class="kicker">05 / final hello</span><h2>Good question? Good reason to say hi.</h2><p>POPORA is built for the moments where a little extra thought makes a big difference.</p></div><a class="btn btn-primary" href="enquiry.html">Open enquiry</a></div></div></section>
+</main>
+<footer class="site-footer">
+ <div class="container">
+  <div class="footer-grid">
+   <div class="footer-brand"><img class="footer-logo" src="assets/logo-light.svg" alt="POPORA"><p>Specialty popcorn, gourmet snacks and beautifully considered gifts for the moments worth sharing.</p><div class="actions"><a class="btn btn-accent" href="enquiry.html">Plan a gift</a></div></div>
+   <div><div class="footer-title">Explore</div><div class="footer-links"><a href="products.html">Products</a><a href="services.html">Gifting</a><a href="about.html">About</a><a href="blogs.html">Blogs</a><a href="contact.html">Contact</a></div></div>
+   <div><div class="footer-title">Customer</div><div class="footer-links"><a href="login.html">Login</a><a href="signup.html">Sign Up</a><a href="enquiry.html">Book / Enquiry</a><a href="contact.html#faq">FAQs</a></div></div>
+   <div><div class="footer-title">Say hello</div><div class="footer-links"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">LinkedIn</a><a href="mailto:hello@popora.example">hello@popora.example</a></div></div>
+  </div>
+  <div class="footer-bottom"><span>© <span data-year></span> POPORA. Crafted for good gifting.</span><span>U.S. prices shown in USD · Frontend demo — no orders are transmitted.</span></div>
+ </div>
+</footer>
+<div class="toast" role="status" aria-live="polite"></div>
+<button class="icon-btn" data-top hidden style="position:fixed;right:20px;bottom:76px;z-index:1500;box-shadow:var(--shadow)" aria-label="Back to top">↑</button>
+<script src="js/script.js"></script></body></html>

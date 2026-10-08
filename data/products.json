@@ -1,0 +1,98 @@
+[
+  {
+    "id": "p01",
+    "name": "Sea Salt Snap",
+    "category": "Savory",
+    "price": 9.5,
+    "image": "https://images.unsplash.com/photo-1585647347384-2593bc35786b?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Air-popped kernels finished with mineral-rich sea salt and a clean, buttery crunch."
+  },
+  {
+    "id": "p02",
+    "name": "Midnight Cocoa",
+    "category": "Chocolate",
+    "price": 12,
+    "image": "https://images.unsplash.com/photo-1599599810694-b5ac9ddc9e0b?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Dark cocoa, toasted sugar and a whisper of vanilla for an indulgent evening bite."
+  },
+  {
+    "id": "p03",
+    "name": "Tangerine Heat",
+    "category": "Spicy",
+    "price": 10.5,
+    "image": "https://images.unsplash.com/photo-1566843972142-a7fcb70de55a?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Bright citrus notes meet a slow-building chili finish that keeps the bowl moving."
+  },
+  {
+    "id": "p04",
+    "name": "Brown Sugar Cloud",
+    "category": "Sweet",
+    "price": 10,
+    "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Warm brown sugar and vanilla glaze around delicate, cloud-light popcorn."
+  },
+  {
+    "id": "p05",
+    "name": "Maple Smoke",
+    "category": "Savory",
+    "price": 11,
+    "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Maple sweetness balanced by smoked salt for a grown-up sweet-savory profile."
+  },
+  {
+    "id": "p06",
+    "name": "Birthday Confetti",
+    "category": "Sweet",
+    "price": 13,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Vanilla glaze, colorful candy crunch and party-ready energy in every handful."
+  },
+  {
+    "id": "p07",
+    "name": "Chili Lime",
+    "category": "Spicy",
+    "price": 10.5,
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Zesty lime, ancho chili and a savory finish made for movie nights."
+  },
+  {
+    "id": "p08",
+    "name": "Cocoa Crunch Duo",
+    "category": "Chocolate",
+    "price": 18,
+    "image": "https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=1200&q=85",
+    "desc": "A two-flavor chocolate pairing designed for gifting, sharing and keeping."
+  },
+  {
+    "id": "p09",
+    "name": "The Host Box",
+    "category": "Gift Boxes",
+    "price": 38,
+    "image": "https://images.unsplash.com/photo-1513883049090-d0b7439799bf?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Four crowd-pleasing flavors packed for dinner hosts, new neighbors and thank-yous."
+  },
+  {
+    "id": "p10",
+    "name": "Office Favorite Box",
+    "category": "Gift Boxes",
+    "price": 64,
+    "image": "https://images.unsplash.com/photo-1607344645866-009c320b63e0?auto=format&fit=crop&w=1200&q=85",
+    "desc": "A polished assortment for client appreciation, team celebrations and holiday drops."
+  },
+  {
+    "id": "p11",
+    "name": "Golden Caramel",
+    "category": "Sweet",
+    "price": 11.5,
+    "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=1200&q=85",
+    "desc": "Glossy caramel, roasted sugar and just enough salt for a luminous classic."
+  },
+  {
+    "id": "p12",
+    "name": "After Hours Box",
+    "category": "Gift Boxes",
+    "price": 48,
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85",
+    "desc": "A late-night mix of cocoa, chili and caramel flavors with a sophisticated edge."
+  }
+]
